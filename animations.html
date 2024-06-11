@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforms</title>
+    <style>
+        .rotate {
+            height: 200px;
+            width: 200px;
+            background-color: goldenrod;
+            border: 2px solid red;
+            margin-top: 10%;
+            margin-left: 10%;
+        }
+
+        .rotate:hover {
+            text-align: center;
+            font-family: 'Segoe UI';
+            background-color: red;
+            border: 5px solid goldenrod;
+            color: white;
+            transform: rotate(360deg);
+            transition: 1s all ease-in;
+            border-radius: 50%;
+
+        }
+
+        .scale {
+            width: 200px;
+            height: 200px;
+            background-color: gray;
+            border: 2px solid black;
+            margin-left: 10%;
+
+        }
+
+        .scale:hover {
+            transform: scaleX(2);
+            transform: scaleY(2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rotate">Rotate</div>
+    <br><br><br><br><br><br><br>
+    <div class="scale">ayush </div>
+</body>
+
+</html>
