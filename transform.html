@@ -7,6 +7,7 @@
     <title>Transforms</title>
     <style>
         .rotate {
+            display: inline-block;
             height: 200px;
             width: 200px;
             background-color: goldenrod;
@@ -29,16 +30,40 @@
 
         .scale {
             width: 200px;
+            display: inline-block;
             height: 200px;
             background-color: gray;
             border: 2px solid black;
-            margin-left: 10%;
+            transform: translateX(80%);
 
         }
 
         .scale:hover {
-            transform: scaleX(2);
-            transform: scaleY(2);
+            /* transform: scaleX(2); */
+            /* transform:scale3d(2,2,2); */
+            transform: rotate(50deg);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            padding: 50px;
+            width: 400px;
+            height: 400px;
+            transition: transform .2s;
+            margin: 0 auto;
+            margin-left: 30%;
+            margin-top: 10%;
+        }
+
+        img:hover {
+            transform: scale(1.9);
+            /* IE 9 */
+            transform: scale(1.9);
+            /* Safari 3-8 */
+            transform: scale(1.9);
         }
     </style>
 </head>
@@ -47,6 +72,11 @@
     <div class="rotate">Rotate</div>
     <br><br><br><br><br><br><br>
     <div class="scale">ayush </div>
+
+
+
+
+    <img src="iron man.png" alt="">
 </body>
 
 </html>
