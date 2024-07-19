@@ -79,6 +79,7 @@
     border: 2px solid red;
     height: 500px;
     width: 80%;
+    display: flex;
     margin-top: 100px;
     margin-left: 170px;
 }
@@ -86,8 +87,6 @@
 .page1 .content .div1 {
     height: 500px;
     width: 50%;
-    border: 2px solid gray;
-
 }
 
 .image1 {
@@ -108,18 +107,110 @@
 .image-overlay1 i {
     font-size: 60px;
     color: #fff;
-
     width: 120px;
     height: 120px;
     margin-left: 300px;
-    margin-top: 110px;
+    margin-top: 150px;
+}
+
+.image-overlay1 h4 {
+    color: #fff;
+    height: 50px;
+    width: 500px;
+    margin-top: 240px;
+    margin-left: -160px;
+    font-size: 18px;
 }
 
 .image-overlay1 p {
     color: #fff;
-    border: 2px solid yellow;
-    height: 100px;
-    margin-top: 300px;
-    margin-right: 100px;
-    width: 300px;
+    height: 50px;
+    width: 650px;
+    margin-top: 280px;
+    margin-left: -620px;
+    font-size: 14px;
+}
+
+.image-overlay1 h3 {
+    color: #000;
+    height: 50px;
+    width: 500px;
+    margin-top: 335px;
+    margin-left: -300px;
+    font-size: 14px;
+}
+
+.page1 .content .div2 {
+    height: 500px;
+    width: 50%;
+    background-color: #e8e8e8;
+}
+
+.page1 .content .div2 h2 {
+    color: #444444;
+    padding-top: 25px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+
+.page1 .content .div2 div {
+    height: 2px;
+    width: 58px;
+    margin-top: 6px;
+    background-color: red;
+    margin-left: 30px;
+}
+
+.page1 .content .div2 .mail {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.page1 .content .div2 .inp {
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 600px;
+}
+
+.page1 .content .div2 .pass {
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.page1 .content .div2 .check {
+    margin-left: 30px;
+    color: red;
+    font-size: larger;
+}
+
+.page1 .content .div2 span {
+    margin-left: 10px;
+}
+
+.page1 .content .div2 .link {
+    margin-right: 30px;
+    margin-left: 270px;
+    font-family: sans-serif;
+}
+
+.page1 .content .div2 .btn {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 9px 18px;
+    background-color: #eb0028;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
 }
